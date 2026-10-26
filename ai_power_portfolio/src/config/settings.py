@@ -14,6 +14,11 @@ SCHEMA_SQL_PATH = PROJECT_ROOT / "src" / "db" / "schema.sql"
 
 ALPHA_VANTAGE_API_KEY = os.getenv("ALPHA_VANTAGE_API_KEY", "")
 
+# Optional: only needed for the AI-written explanations/news summaries (Weeks 7 and 9).
+# Without a key the project falls back to template text, so everything still runs.
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
+ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
+
 # Default ticker universe covering each planned asset_class.
 # Extend this list as the portfolio recommendation engine (Week 8) needs more coverage.
 TICKER_UNIVERSE = [

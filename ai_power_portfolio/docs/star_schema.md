@@ -14,8 +14,8 @@
 
 | Table | Grain | Populated in |
 |---|---|---|
-| `fact_market_price` | one row per (asset, date) | Week 3–4 (this sprint) |
-| `fact_user_profile` | one row per completed questionnaire | Week 5–6 |
+| `fact_market_price` | one row per (asset, date) | Week 3 (loaded), Week 4 (validated) |
+| `fact_user_profile` | one row per completed questionnaire | Week 5–6 (done) |
 | `fact_recommendation` | one row per (profile, asset) allocation line | Week 8 |
 | `fact_forecast` | one row per (profile, scenario, horizon_year) | Week 10 |
 
